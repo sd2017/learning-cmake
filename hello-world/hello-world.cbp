@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hello-world"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\hello-world-clear\;CMake Files\hello-world-clear\src\;CMake Files\hello-world\;CMake Files\hello-world-lib\;CMake Files\hello-world-lib\src\;CMake Files\hello-world-shared\;CMake Files\hello-world-shared\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shoshan/CLionProjects/learning-cmake/hello-world"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world">
+				<Option output="/home/shoshan/CLionProjects/learning-cmake/hello-world/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shoshan/CLionProjects/learning-cmake/hello-world"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 hello-world"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world/fast">
+				<Option output="/home/shoshan/CLionProjects/learning-cmake/hello-world/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shoshan/CLionProjects/learning-cmake/hello-world"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shoshan/CLionProjects/learning-cmake/hello-world/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world/main.c">
+			<Option target="hello-world"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-clear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-clear\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-clear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-clear\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-clear/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-clear\src\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-clear/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-clear\src\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-lib\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-lib\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-lib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-lib\src\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-lib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-lib\src\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-shared/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-shared\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-shared/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-shared\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-shared/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-shared\src\"/>
+		</Unit>
+		<Unit filename="/home/shoshan/CLionProjects/learning-cmake/hello-world-shared/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello-world-shared\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

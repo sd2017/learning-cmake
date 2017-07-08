@@ -4,6 +4,6 @@
 
 #include <stdio.h>
 
-void hello_func(void);
+void hello_func_lib(void);
 
 #endif

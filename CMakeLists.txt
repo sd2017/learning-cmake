@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.7)
+project (learning-cmake)
+add_subdirectory(hello-world)
+add_subdirectory(hello-world-clear)
+add_subdirectory(hello-world-lib)
+add_subdirectory(hello-world-shared)
+add_subdirectory(hello-module)
